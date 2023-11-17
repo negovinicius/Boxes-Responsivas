@@ -15,7 +15,6 @@ body {
     background-attachment: fixed;
 }
 p {
-    margin: 100px 0px 0px 20px;
     color: white;
     font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,94 +22,24 @@ p {
 p::after {
     content: '\1F412';
 }
-.box1 {
-    text-align: center;
-    margin: 20px;
+
+.box2 {
     max-width: 100%;
     width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
+    border: 3px solid black;
     height: 100px;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     background-color: transparent;
 }
 
-.box2 {
-    margin: 20px;
-    max-width: 100%;
-    width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-}
-.box3 {
-    margin: 20px;
-    max-width: 100%;
-    width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-}
-.box4 {
-    margin: 20px;
-    max-width: 100%;
-    width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-}
-.box5 {
-    margin: 20px;
-    max-width: 100%;
-    width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-}
-.box6 {
-    margin: 20px;
-    max-width: 100%;
-    width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-}
-.box7 {
-    margin: 20px;
-    max-width: 100%;
-    width: 100px;
-    border: 3px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-}
 
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    padding: 20px 10px 0px 10px;
 }
 
 img {
-    margin-left: 12px;
     max-width: 80px;
     width: 100%;
     height: auto;
