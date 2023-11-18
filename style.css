@@ -10,20 +10,28 @@
     --cor3: #7B5143;
     --cor4: #614C4C;
 }
+
 body {
     background-image: linear-gradient(var(--cor1), var(--cor2), var(--cor3), var(--cor4));
     background-attachment: fixed;
 }
+
 p {
     color: white;
     font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 p::after {
     content: '\1F412';
 }
 
 .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 12px 12px 0;
     max-width: 100%;
     width: 100px;
     border: 3px solid black;
@@ -33,15 +41,12 @@ p::after {
     background-color: transparent;
 }
 
-
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
 }
 
-img {
-    max-width: 80px;
-    width: 100%;
-    height: auto;
-    display: block;
+.image {
+    height: 24px;
+    width: 24px;
 }
